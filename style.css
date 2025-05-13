@@ -14,33 +14,68 @@
 /* Estilos para el HOME */
 /* ------------------------------------- */
 
+ .alegreya-sans-regular {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;}
 
+  
+.libre-franklin-uniquifier {
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style:normal;
+}
+  
+.alegreya-uniquifier {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+  
+  
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:"Libre Franklin", sans-serif;
     font-size: 48pt;
     text-align: center;
 }
 
 h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Alegreya", serif;
     font-size: 24pt;
     text-align: center;
-    
+    margin-bottom:50px;
+    margin-top: 50px;
+     margin-left: 100px;
+    margin-right: 100px;
+      
 }
 
 h3{ 
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: "Alegreya", serif;
 }
+
+#solucion h3{
+    margin: 20px 0;
+}
+
 p{
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
     text-align: justify;
+  font-family: "Alegreya Sans", sans-serif;;
+    
 }
+
     
 img{
 
@@ -61,7 +96,7 @@ nav a{
     padding: 1% 3%;
     text-decoration: none;
     color: white;
-    background-color: gray;
+    background-color: rgb(153, 0, 0);
     margin: 10px;
     border-radius: 12px;
 }
@@ -77,46 +112,117 @@ main{
 }
 
 header{
-    background-color: beige;
+    
+    
     padding: 5%;
+    background-image: url(tela\ 2.jpg); 
+    color: white;
 }
 
 nav{
-    background-color: blanchedalmond;
-    padding: 5%;
+    background-color: rgb(255, 231, 231);
+    padding: 2%;
 
 }
 
 section{
     font-family: Arial, Helvetica, sans-serif;
-    height: 600px; /* Esta propiedad se puede cambiar según el alto del contenido */ 
-    background-color: cornsilk;
+    height: 200px; /* Esta propiedad se puede cambiar según el alto del contenido */ 
     padding: 5%;
+    text-align: center;
 }
 
 footer{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: burlywood;
+     color: white;
+    background-color:rgb(153, 0, 0);
     padding: 1%;
     text-align: center;
 }
 
-ul{
-    margin-left: 200px;
-    margin-right: 200px;
+
+.imagen{
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    
+     vertical-align: top
+
+}
+
+.container{
+    display: flex;
+      margin-left: 100px;
+     
+    
+}
+
+.texto {
+    margin-top: 50px;
+    margin-right: 75px;
+}
+
+ 
+div#solucion{height: 1000px;
+    width: 370px;
+}
+
+
+div#inicio{ 
+    width: 2000px;
+    height: 250px;
+    background-image: url(tejido\ verde.jpg);
+ 
    
-
 }
 
-
-div{
-
-    width: 700px;
-    height: 600px;
-
+div#cuadro{
+    background-color:  rgb(255, 231, 231);
+    height: 700px;
+    width: 1300px;
+    border-radius: 50px;
+   text-align: center;
+   margin-right: 100px;
+   margin-top: 100px;
+   margin-left: 100px;
 }
-
-#divsote{
+div#divsote{
     display: flex;
     text-align: center;
+   
+}
+
+div#divcito{
+ display: flex;
+ width: 90%;
+ margin: 0 auto;
+text-align:center;
+justify-content: center;
+background-color: rgb(255, 231, 231);
+border-radius: 50px;
+
+}
+
+div#divcititito{
+display: flex;
+text-align: center;
+justify-content: center;
+
+}
+
+div#intro{
+display: flex;
+margin-left: 200px;
+margin-right: 200px; 
+width: 1700px;
+    height: 500px;
+}
+
+div{
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+
 }
